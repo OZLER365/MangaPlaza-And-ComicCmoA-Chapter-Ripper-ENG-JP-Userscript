@@ -8,7 +8,6 @@ A custom Tampermonkey userscript engineered to capture, sequence, and download m
 * **SHA-256 Deduplication:** Cryptographically hashes every captured image in real-time to guarantee zero duplicate files in your final download.
 * **Smart Image Sequencing:** Automatically maps sliced image segments (pages divided into 3 parts) to their correct physical order using DOM scanning.
 * **Draggable Floating UI:** A minimal, lightweight control panel that tracks your captured images and can be dragged anywhere on the screen.
-* **One-Click ZIP Export:** Packages all correctly sequenced image slices into a single ZIP file named after the chapter.
 
 ## 🚀 Installation & Usage
 
