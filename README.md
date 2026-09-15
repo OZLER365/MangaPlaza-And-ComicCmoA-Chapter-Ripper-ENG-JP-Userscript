@@ -17,7 +17,7 @@ A custom Tampermonkey userscript engineered to capture, sequence, and download m
 4. **Reading Direction:** You MUST set the reader to **Right-to-Left (Horizontal)** for the script to sequence pages correctly
 5. **Extension Conflicts:** Disable any "Enable Right Click" scripts or browser extensions, as they will completely break the auto-scroll logic
 
-5. **Download:** Once you reach the end and the counter on the floating UI stops increasing, click **Download** to generate your ZIP file.
+5. **Download:** Once you reach the end and the counter on the floating UI stops increasing, click **Download** to generate your FOLDER file.
 
 ## ⚠️ Important Notice
 
