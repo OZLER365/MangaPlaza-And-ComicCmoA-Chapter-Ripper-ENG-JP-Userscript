@@ -1,6 +1,6 @@
 # MangaPlaza & Comic C'moA Ripper
 
-A custom Tampermonkey userscript engineered to capture, sequence, and download manga chapters from MangaPlaza and Comic C'moA. It automatically bypasses the platforms' image-splitting protection to deliver perfectly ordered files inside a ZIP archive.
+A custom Tampermonkey userscript engineered to capture, sequence, and download manga chapters from MangaPlaza and Comic C'moA. It automatically bypasses the platforms' image-splitting protection to deliver perfectly ordered files inside a FOLDER.
 
 ## ✨ Core Features
 
@@ -15,7 +15,9 @@ A custom Tampermonkey userscript engineered to capture, sequence, and download m
 1. **Prerequisite:** Install the **Tampermonkey** extension in your web browser.
 2. **Install Script:** Add the tool via my Greasyfork profile.
 3. **Load Chapter:** Open the manga chapter you want to save.
-4. **Scroll to End (CRITICAL):** You must scroll to the very bottom of the chapter. Because the site splits images into 3 parts, the script needs to "see" every part load to map them correctly.
+4. **Reading Direction:** You MUST set the reader to **Right-to-Left (Horizontal)** for the script to sequence pages correctly
+5. **Extension Conflicts:** Disable any "Enable Right Click" scripts or browser extensions, as they will completely break the auto-scroll logic
+
 5. **Download:** Once you reach the end and the counter on the floating UI stops increasing, click **Download** to generate your ZIP file.
 
 ## ⚠️ Important Notice
